@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .super-important {
+        background-color: red;
+      }
+      .highlited {
+        color: yellow;
+      }
+      .highlited.super-important {
+        font-size: 30px;
+      }
+      span.user-data {
+        background-color: aqua;
+      }
+      li.user-data {
+        background-color: honeydew;
+      }
+      .company-data,
+      li {
+        font-size: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="descriprion-text">
+      <p class="super-important highlited">Super-important highlited text</p>
+      <p class="highlited">Less important text</p>
+      <p>Realy not soo important paragraph</p>
+      <div>
+        <span class="super-important user-data">First name</span>
+        <span class="user-data">Last name</span>
+        <span class="company-data">Last name</span>
+        <span class="user-data">Last name</span>
+      </div>
+      <div><p>User roles</p></div>
+      <ul>
+        <li class="user-data">Product development</li>
+        <li class="user-data">Mentoring</li>
+      </ul>
+    </div>
+  </body>
+</html>
